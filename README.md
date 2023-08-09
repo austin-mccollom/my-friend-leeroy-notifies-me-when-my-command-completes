@@ -2,4 +2,7 @@
 Bash scripting to play a sound or send you a text message when a shell command completes.
 
 append to the end of the long-running command:
-; bash lj.sh ; bash sms.sh
+`; bash lj.sh ; bash sms.sh`
+
+For example:
+`node index.js ; bash lj.sh ; bash sms.sh`
